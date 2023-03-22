@@ -39,6 +39,16 @@ header {
   color: bisque;
 }
 
+.aside{
+  background-color: #f7e4ec;
+  padding: 20px;
+  width: 150px;
+  border: 2px solid #7B113A;
+  text-align: center;
+  line-height: 50px;
+  float: right;
+}
+
 .header__logo {
   display: flex;
   align-items: center;
