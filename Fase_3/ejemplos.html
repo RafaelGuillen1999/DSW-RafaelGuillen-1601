@@ -48,7 +48,7 @@
     </div>
   </nav>
 
-  <div>
+  <section>
     <hr>
     <center>
       <h3>Ejemplos de cómo utilizar Flexbox en la creación de diseños web</h3>
@@ -61,42 +61,53 @@
         <a class="nav-link" href="nosotros.html">Nosotros</a>
       </nav>
     </div>
-    <ol>
-      <li>
-        <h6>Distribución de elementos en una fila:</h6>
-      </li>
-      <center><img
-          src="https://github.com/RafaelGuillen1999/DSW-RafaelGuillen-1601/blob/main/Fase_2/Imagenes/Ejemplo_1.png?raw=true"
-          alt="Sorry"></center>
-      <p>En este ejemplo, los elementos HTML se distribuyen en una fila utilizando la propiedad ´display: flex´ en el
-        contenedor y ´width´ en los elementos. La propiedad ´justify-content: space-between´ distribuye los elementos de
-        manera uniforme a lo largo del eje principal del contenedor.</p>
-      <li>
-        <h6>Distribución de elementos en una columna:</h6>
-      </li>
-      <a href="#Ejemplos"> <img src="https://github.com/RafaelGuillen1999/DSW-RafaelGuillen-1601/blob/main/Fase_2/Imagenes/CASA%202.png?raw=true" alt="Vuelve al inicio"></a>
-      <center><img
-          src="https://github.com/RafaelGuillen1999/DSW-RafaelGuillen-1601/blob/main/Fase_2/Imagenes/Ejemplo_2.png?raw=true"
-          alt="Sorry"></center>
-      <p>En este ejemplo, los elementos HTML se distribuyen en una columna utilizando la propiedad ´flex-direction:
-        column´ en el contenedor y ´height´ en los elementos. La propiedad ´align-items: center´ alinea los elementos en
-        el eje secundario del contenedor, lo que resulta en que los elementos se centren verticalmente en el contenedor.
-      </p>
-      <li>
-        <h6>Diseño adaptable para dispositivos móviles:</h6>
-      </li>
-      <a href="#Ejemplos"> <img src="https://github.com/RafaelGuillen1999/DSW-RafaelGuillen-1601/blob/main/Fase_2/Imagenes/CASA%202.png?raw=true" alt="Vuelve al inicio"></a>
-      <center><img
-          src="https://github.com/RafaelGuillen1999/DSW-RafaelGuillen-1601/blob/main/Fase_2/Imagenes/Ejemplo_3.png?raw=true"
-          alt="Sorry"></center>
-      <p>En este ejemplo, se utiliza Flexbox para crear un diseño adaptable para dispositivos móviles utilizando la
-        propiedad ´flex-wrap: wrap´ en el contenedor y ´width´, ´height´, y ´margin´ en los elementos. La propiedad
-        ´justify-content: center´ distribuye los elementos en el centro del contenedor, y los elementos se envuelven en
-        varias líneas si no caben en el ancho disponible. Este diseño permite que los elementos se ajusten al ancho de
-        la pantalla, lo que resulta en una experiencia de usuario más agradable en dispositivos móviles.</p>
-    </ol>
-  </div>
-
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Distribución de elementos en una fila:
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <center><img
+              src="https://github.com/RafaelGuillen1999/DSW-RafaelGuillen-1601/blob/main/Fase_2/Imagenes/Ejemplo_1.png?raw=true"
+              alt="Sorry">
+            </center>
+              <p>En este ejemplo, los elementos HTML se distribuyen en una fila utilizando la propiedad ´display: flex´ en el contenedor y ´width´ en los elementos. La propiedad ´justify-content: space-between´ distribuye los elementos de manera uniforme a lo largo del eje principal del contenedor.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Distribución de elementos en una columna:
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <center><img src="https://github.com/RafaelGuillen1999/DSW-RafaelGuillen-1601/blob/main/Fase_2/Imagenes/Ejemplo_2.png?raw=true"alt="Sorry"></center>
+            <p>En este ejemplo, los elementos HTML se distribuyen en una columna utilizando la propiedad ´flex-direction: column´ en el contenedor y ´height´ en los elementos. La propiedad ´align-items: center´ alinea los elementos en el eje secundario del contenedor, lo que resulta en que los elementos se centren verticalmente en el contenedor.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Diseño adaptable para dispositivos móviles:
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <center><img src="https://github.com/RafaelGuillen1999/DSW-RafaelGuillen-1601/blob/main/Fase_2/Imagenes/Ejemplo_3.png?raw=true"alt="Sorry"></center>
+            <p>En este ejemplo, se utiliza Flexbox para crear un diseño adaptable para dispositivos móviles utilizando la propiedad ´flex-wrap: wrap´ en el contenedor y ´width´, ´height´, y ´margin´ en los elementos. La propiedad ´justify-content: center´ distribuye los elementos en el centro del contenedor, y los elementos se envuelven en varias líneas si no caben en el ancho disponible. Este diseño permite que los elementos se ajusten al ancho de la pantalla, lo que resulta en una experiencia de usuario más agradable en dispositivos móviles.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
   <footer>
     <h6>&copy; 2023 Derechos de Autor</h6>
     <h6><a href="/Correo: rgguillenm@unadvirtual.edu.co">Correo: rgguillenm@unadvirtual.edu.co</a></h6>

@@ -30,6 +30,7 @@ img {
 }
 
 /* Estilos de encabezado */
+
 header {
   display: flex;
   flex-direction: row;
