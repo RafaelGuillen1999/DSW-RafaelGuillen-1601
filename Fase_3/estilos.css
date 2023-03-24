@@ -1,16 +1,16 @@
 /* Estilos generales */
-{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-} 
+}
 
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background-color: #f4f4f4ef;
-} 
+}
 
 .container {
   max-width: 1200px;
@@ -39,7 +39,7 @@ header {
   color: bisque;
 }
 
-.aside{
+.aside {
   background-color: #f7e4ec;
   padding: 20px;
   width: 150px;
