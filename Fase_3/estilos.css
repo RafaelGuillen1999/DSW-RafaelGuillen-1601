@@ -50,6 +50,10 @@ header {
   float: right;
 }
 
+.foto{
+  height: 120px;
+}
+
 .header__logo {
   display: flex;
   align-items: center;
