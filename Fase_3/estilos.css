@@ -43,11 +43,13 @@ header {
 .aside {
   background-color: #f7e4ec;
   padding: 20px;
-  width: 150px;
-  border: 2px solid #7B113A;
   text-align: center;
   line-height: 50px;
-  float: right;
+  margin-left: 20px;
+}
+.aside a:hover{
+  font-size: 20px;
+  color: #7B113A;
 }
 
 .foto{
@@ -161,4 +163,10 @@ footer a {
 
 footer a:hover {
   color: #666;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-template-rows: 1;
 }
