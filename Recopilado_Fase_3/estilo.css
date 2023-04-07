@@ -1,0 +1,197 @@
+/* CSS GENERAL */
+
+* {
+    padding: 0%; 
+    margin: 0%;
+}
+
+body {
+    background-color: #F6F1F1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    line-height: 2;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1400px;
+
+}
+
+.contenedor>div,
+.contenedor .header,
+.contenedor .barra-nav,
+.contenedor .contenido,
+.contenedor .sidebar,
+.contenedor .piepagina {
+
+    padding: 11px;
+    border-radius: 2px;
+}
+
+.container {
+    max-width: 14000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* CSS HEADER */
+
+.contenedor .header {
+    background: #62CDFF;
+    color: black;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    text-align: center;
+
+}
+
+/* CSS CONTENIDO */
+
+.contenedor .contenido {
+    color: black;
+    grid-column-start: 2;
+    grid-column-end: -1;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+/* CSS ASIDE*/
+
+.contenedor .sidebar {
+    grid: column 1;
+    text-align: center;
+}
+
+.sidebar {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* CSS FOOTER */
+
+.contenedor .piepagina {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contenedor .piepagina {
+    background: white;
+    color: black;
+    grid-column: auto;
+    text-align: center;
+}
+
+hr {
+    background-color: red;
+    padding: 1px;
+}
+
+/* CSS BARRA-NAVEGACION */
+
+
+.contenedor a {
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+
+}
+
+.contenedor a:hover {
+    font-size: 15px;
+    color: black;
+    padding: 1px;
+}
+
+
+p {
+    width: 1000px;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+
+.navbar {
+    background-color: #f8f9fa;
+    border-radius: 0;
+}
+
+.navbar-toggler {
+    border-color: tomato;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: blue;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+
+/* CSS AUDIO*/
+.audio {
+    box-shadow: 0 3px 7px rgba(15, 15, 216, 0.8);
+}
+
+/* CSS BARRA-LATERAL */
+
+.Barralateral {
+    margin: 2px;
+    padding: 2px;
+    
+}
+
+.Barralateral a {
+    display: block;
+    text-align: left;
+    color: black;
+    margin-bottom: 20px;
+    
+}
+
+.Barralateral a:hover {
+    font-size: 15px;
+    color: black;
+    padding: 1px;
+}
+
+/* CSS IMAGEN */
+img {
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/*CSS GRID*/
+.grid {
+    display: grid;
+    grid-template-columns: 100% 0.0%;
+    grid-template-rows: auto;
+}
+
+@media (min-width:100px) {
+
+    .contenedor .contenido {
+        color: black;
+        grid-column-start: 2;
+        grid-column-end: -1;
+    }
+    
+}
