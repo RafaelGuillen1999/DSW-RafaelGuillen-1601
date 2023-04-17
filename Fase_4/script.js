@@ -1,5 +1,5 @@
 function procesarRespuestas () {
-    let total = 3
+    let total = 3;
     let putos = 0;
 
     let myFrom = document.forms["formulario"];
@@ -16,7 +16,7 @@ function procesarRespuestas () {
         }
           
     }
-    let resultado = document.getElementById("resultado")
+    let resultado = document.getElementById('resultado');
     resultado.innerHTML=" Obtuviste"+ puntos +"puntos de "+ total +" Posibles ";
     return false;
 }   
