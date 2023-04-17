@@ -1,6 +1,6 @@
 function procesarRespuestas () {
     let total = 3;
-    let putos = 0;
+    let puntos = 0;
 
     let myFrom = document.forms["formulario"];
     let respuestasCorrectas = ["c","a","b"];
@@ -12,11 +12,17 @@ function procesarRespuestas () {
             return false;
         } else { 
             if (myFrom["r" + i].value === respuestasCorrectas[i - 1])
-                putos++;
+                puntos++;
         }
           
     }
-    let resultado = document.getElementById('resultado');
-    resultado.innerHTML=" Obtuviste"+ puntos +"puntos de "+ total +" Posibles ";
+
+    //let resultado = document.getElementById('resultado');
+    //resultado.innerHTML=" Obtuviste"+ puntos +"puntos de "+ total +" Posibles ";
+    if (puntos == 1) {
+        alert(" Obtuviste "+ puntos +" punto de "+ total +" Posibles ");
+    } else {
+        alert(" Obtuviste "+ puntos +" puntos de "+ total +" Posibles "); 
+    }
     return false;
 }   
