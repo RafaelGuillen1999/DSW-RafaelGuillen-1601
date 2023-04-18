@@ -1,4 +1,4 @@
-function procesarRespuestas () {
+function procesarRespuestasFlexBox () {
     let total = 3;
     let puntos = 0;
 
