@@ -33,14 +33,24 @@ nav{
     font-weight: 700;
     font-size: 17px;
 }
+
 .nav-link:hover{
     font-weight: 900;
     text-shadow: .8px .8px #000000;
-    color: #00b4b4;
+    color: #adf3f3;
+    background: linear-gradient(
+        to right,
+        hsl(0, 93%, 47%),
+        hsl(342, 84%, 29%)
+    );
+    border-radius: 50px;
+    scale: 1.1;
 }
+
 form input{
     font-size: 15px;
 }
+
 .pregunta{
     padding: 20px;
     border: solid 1px #00fafa;
