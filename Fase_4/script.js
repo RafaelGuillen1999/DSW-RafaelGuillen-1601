@@ -1,14 +1,14 @@
 function procesarRespuestasFlexBox () {
-    let total = 3;
+    let total = 5;
     let puntos = 0;
 
     let myFrom = document.forms["formulario"];
-    let respuestasCorrectas = ["c","a","b"];
+    let respuestasCorrectas = ["c","a","a","a","a"];
 
     for (let i = 1; i <= total; i++) {
         if (myFrom["r" + i].value == null || 
             myFrom["r" + i].value == "") {
-            alert("por favor responda todas las preguntas");
+            alert("Por favor responda todas las preguntas antes de continuar ");
             return false;
         } else { 
             if (myFrom["r" + i].value === respuestasCorrectas[i - 1])
