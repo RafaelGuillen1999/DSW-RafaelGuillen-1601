@@ -48,10 +48,20 @@ form input{
     margin-bottom: 20px;
 }
 .btn{
-    width: 170px;
+    width: 110px;
     font-size: 20px;
     border-radius: 50px;
     font-weight: 700;
+}
+
+.btn:hover {
+    background: linear-gradient(
+        to right,
+        hsl(197, 93%, 47%),
+        hsl(187, 100%, 50%)
+    );
+    color: white;
+    scale: 1.2;
 }
 
 footer{
@@ -63,9 +73,9 @@ footer{
 .foto{
     height: 120px;
     border-radius: 50%;
-  }
+}
 
-  .foto:hover{
+.foto:hover{
     translate: 1rem;
     scale: 1.2;
-  }
+}
