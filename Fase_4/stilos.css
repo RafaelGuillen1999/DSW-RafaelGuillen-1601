@@ -59,3 +59,8 @@ footer{
     padding: 25px;
 
 }
+
+.foto{
+    height: 120px;
+    border-radius: 50%;
+  }
