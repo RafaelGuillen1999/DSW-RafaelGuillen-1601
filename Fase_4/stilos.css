@@ -26,11 +26,15 @@ div h1{
     overflow: hidden;
     transition: 0.3s;
     color: white;
-    /*text-shadow: 2px 2px 3px rgb(250, 188, 94);*/
 }
 
-div h1:hover{
+div h1:hover {
     text-shadow: 0 1.5em #adf3f3, 0 0 #00fafa;
+}
+
+div h2:hover {
+    translate: 1rem;
+    text-shadow: 2px 2px 3px rgb(250, 188, 94);
 }
 
 nav{
