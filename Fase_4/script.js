@@ -19,10 +19,16 @@ function procesarRespuestasFlexBox () {
 
     //let resultado = document.getElementById('resultado');
     //resultado.innerHTML=" Obtuviste"+ puntos +"puntos de "+ total +" Posibles ";
-    if (puntos == 1) {
-        alert(" Obtuviste "+ puntos +" punto de "+ total +" Posibles ");
-    } else {
-        alert(" Obtuviste "+ puntos +" puntos de "+ total +" Posibles "); 
+    let Rstd = window.confirm('Está seguro de enviar el cuestionario con las respuestas dadas ?');
+    if (Rstd === true){
+        if (puntos == 1) {
+            alert(" Obtuviste "+ puntos +" punto de "+ total +" Posibles ");
+        } else {
+            alert(" Obtuviste "+ puntos +" puntos de "+ total +" Posibles ");
+        }
+        return false;
+    } else { 
+        window.alert('¡Cambia las opciones de respuestas que desees, antes de enviar el cuestionario ¡');
     }
-    return false;
+    
 }   
