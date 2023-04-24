@@ -1,0 +1,214 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f4f4f4ef;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos de encabezado */
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #7B113A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: bisque;
+  }
+  
+  .aside {
+    background-color: #f7e4ec;
+    padding: 20px;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 20px;
+  }
+   .nav-link:hover{
+    color: #7B113A;
+    font-weight: 600;
+   }
+  
+  .aside a:hover{
+    font-size: 20px;
+    color: #7B113A;
+  }
+  
+  .foto{
+    height: 120px;
+    border-radius: 50%;
+  }
+  
+  .header__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .header__logo img {
+    max-height: 80px;
+  }
+  
+  .header__title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .navbar {
+    background-color: #f8f9fa;
+    border-radius: 0;
+  }
+  
+  .navbar-toggler {
+    border-color: transparent;
+  }
+  
+  .navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+  }
+  
+  .nav-link {
+    color: #1a121b;
+  }
+
+  .menuvertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: #f4f4f4ef;
+  }
+  
+  .navbar-nav li:hover .menuvertical {
+    display: block;
+  }
+
+  .menuvertical a:hover {
+    font-size: 17px;
+    color: rgba(243, 14, 14, 0.911);
+  }
+
+  .menuvertical li a{
+    display : block;
+    color: rgb(10, 0, 0);
+    padding: 6px 6px 6px 6px;
+    text-decoration: none;
+  }
+
+  .nav-link:hover {
+    color: #666;
+  }
+  
+  /* Estilos de contenido principal */
+  main {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  main h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  main p {
+    margin-bottom: 20px;
+  }
+  
+  main img {
+    margin: 20px 0;
+  }
+  
+  /* Estilos de barra lateral */
+  .sidebar {
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .sidebar__title {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar__link {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .sidebar__link:hover {
+    color: #666;
+  }
+  
+  /* Estilos de pie de página */
+  footer {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    color: #333;
+  }
+  
+  footer a:hover {
+    color: #666;
+  }
+  
+  .grid{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 1;
+  }
+  
+  .UNAD{
+    height: 400px;
+  }
+  
+  .nosotros {
+    height: 400px;
+  }
+  
+  .Audio {
+    box-shadow: 0 2px 5px rgba(243, 14, 205, 0.911);
+  }
